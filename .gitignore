@@ -1,0 +1,58 @@
+# node
+node_modules
+
+# vscode
+.vscode
+
+# config files
+config_docker.json
+
+# ipynb
+*.ipynb_checkpoints
+
+# macos
+*.DS_Store
+
+# vagrant
+.vagrant
+
+# server key/cert examples for ansible
+packaging/ansible/server_cert.pem
+packaging/ansible/server_key.pem
+server/certificates/server_cert.pem.bak
+server/certificates/server_key.pem.bak
+
+# client key/cert examples for ansible
+ansible_key.pem
+ansible_cert.pem
+ansible_csr.pem
+ansible.p12
+
+# mac
+.DS_Store
+
+# venv
+venv/
+
+# User-specific stuff
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# AWS User-specific
+.idea/**/aws.xml
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
